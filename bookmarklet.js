@@ -1,1 +1,1 @@
-document.getElementById('name').value="westhouse";document.getElementById("password").value="password";document.getElementById('button').click();
+document.getElementById('name').value="westhouse";document.getElementById("password").value="password";document.getElementById("button").click();

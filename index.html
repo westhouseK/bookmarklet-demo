@@ -27,6 +27,10 @@
     <script>
         const button = document.getElementById('button');
         button.addEventListener('click', () => {
+            if (document.getElementById('name').value === '' || ocument.getElementById('password').value === '') {
+                alert('Oh no!!!');
+                return;
+            }
             alert(`NameとPasswordを入力し、送信ボタンが押されました。`)
         });
     </script>
